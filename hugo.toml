@@ -28,8 +28,3 @@ description = "Личное портфолио на Hugo (ITMO)."
     name = "Проекты"
     url = "/projects/"
     weight = 3
-
-  [[menu.main]]
-    name = "Посты"
-    url = "/posts/"
-    weight = 4
