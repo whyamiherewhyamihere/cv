@@ -1,9 +1,8 @@
 ---
 title: "Проекты"
-description: "Список проектов"
 ---
 
-Здесь можно вести список учебных и личных проектов.
+- [Проект 1: Сайт магазина](https://se.ifmo.ru/~s373760/test-main/public/pages/index1.php)
+- [Проект 2: Браузерная настольная игра](https://se.ifmo.ru/~s373760/quarto_game/src/code/index.php)
 
-- [Проект 1: Сайт магазина](./project-1/)
-- [Проект 2: Браузерная настольная игра](./project-2/)
+- [Мои работы в графических редакторах](https://drive.google.com/drive/folders/1zkZZykkeKSn2aOOgW2TT2YHwgQYq2Tfi?usp=sharing)
