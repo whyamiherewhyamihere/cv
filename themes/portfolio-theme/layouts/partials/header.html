@@ -1,10 +1,21 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
-
     <nav class="nav">
-      {{ range .Site.Menus.main }}
-        <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+      {{ $page := . }} {{ range .Site.Menus.main }} {{ $isActive := or
+      ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }}
+      <a
+        class="nav-link{{ if $isActive }} nav-link-active{{ end }}"
+        href="{{ .URL | relURL }}"
+        {{
+        if
+        $isActive
+        }}
+        aria-current="page"
+        {{
+        end
+        }}
+        >{{ .Name }}</a
+      >
       {{ end }}
     </nav>
   </div>

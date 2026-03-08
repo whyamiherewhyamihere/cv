@@ -9,10 +9,14 @@ description: "Главная страница портфолио"
 
 ### Что здесь есть
 
-- Страница [Обо мне](/about/) с подробным описанием опыта и навыков.
-- Раздел [Проекты](/projects/) с описанием работ и ссылками.
+Страница [Обо мне](/about/) с подробным описанием опыта и навыков.
+
+Раздел [Проекты](/projects/) с описанием работ и ссылками.
 
 ### Контакты
 
-- GitHub: https://github.com/whyamiherewhyamihere
-- Email: arseniy.syrzhitskiy@mail.ru
+GitHub: https://github.com/whyamiherewhyamihere
+
+Email: arseniy.syrzhitskiy@mail.ru
+
+Telegram: [@uglyuglygly](https://t.me/uglyuglygly)
