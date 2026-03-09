@@ -108,6 +108,19 @@ main {
 
 .prose h1, .prose h2, .prose h3 { line-height: 1.25; }
 
+.about-photo {
+  width: 240px;
+  max-width: 100%;
+  margin: 6px 0 16px;
+}
+
+.about-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
 .prose code {
   background: rgba(255, 255, 255, 0.08);
   padding: 0.15em 0.35em;
